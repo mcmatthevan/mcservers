@@ -42,5 +42,5 @@ with open("{}/server.properties".format(SERVER),"w") as fichier:
 
 print("Lancement du serveur...")
 os.chdir(SERVER)
-subprocess.Popen("startscript.sh")
+subprocess.Popen("..\\..\\git-bash.exe startscript.sh")
 sys.exit(0)
