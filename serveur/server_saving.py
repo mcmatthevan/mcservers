@@ -1,6 +1,6 @@
 import os
 import time
-currentTime = "{}/{}/{} {}:{}".format(time.strftime("%d"),time.strftime("%m"),time.strftime("%y"),time.strftime("%H"),time.strftime("%m"))
+currentTime = "{}/{}/{} {}:{}".format(time.strftime("%d"),time.strftime("%m"),time.strftime("%y"),time.strftime("%H"),time.strftime("%M"))
 
 def fin(x="unknown"):
     print("UNE ERREUR EST SURVENUE AU MOMENT D'ENREGISTRER LES FICHIERS\n /!\\ EN ATTENDANT DE LE RESOUDRE NE PAS OUVRIR LE SERVEUR /!\\ \n SIGNALER L'ERREUR DE TOUTE URGENCE")
