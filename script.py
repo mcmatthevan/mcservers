@@ -20,7 +20,6 @@ with open("./{}/used.b".format(SERVER),"r") as fichier:
         print("Le serveur peut se lancer")
     else:
         print("Le serveur est déjà ouvert sur un autre ordinateur")
-        input("Appuyez sur Entrée pour sortir...\n")
         fin(1)
 
 with open("./{}/used.b".format(SERVER),"w") as fichier:
@@ -37,6 +36,7 @@ print("Remplacement de l'IP")
 with open("{}/server.properties".format(SERVER),"r") as fichier:
     contprop = fichier.read()
 with open("{}/server.properties".format(SERVER),"r") as fichier:
+    print(re.sub(r"server-ip\s*=\s*[\S\s]*?\n","server-ip={}\n".format(BIND),contprop))
     fichier.write(re.sub(r"server-ip\s*=\s*[\S\s]*?\n","server-ip={}\n".format(BIND),contprop))
 
 print("Lancement du serveur...")
