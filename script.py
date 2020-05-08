@@ -39,4 +39,5 @@ with open("{}/server.properties".format(SERVER),"w") as fichier:
     fichier.write(re.sub(r"server-ip\s*=\s*[\S\s]*?\n","server-ip={}\n".format(BIND),contprop))
 
 print("Lancement du serveur...")
-os.system("{}/start.bat".format(SERVER))
+os.chdir(SERVER)
+os.system("start.bat")
