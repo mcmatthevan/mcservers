@@ -35,10 +35,7 @@ if os.system("git add {}".format(SERVER)) or os.system("git commit -am \"Setting
 print("Remplacement de l'IP")
 with open("{}/server.properties".format(SERVER),"r") as fichier:
     contprop = fichier.read()
-with open("{}/server.properties".format(SERVER),"r") as fichier:
-    jej = re.sub(r"server-ip\s*=\s*[\S\s]*?\n","server-ip={}\n".format(BIND),contprop)
-    print(jej)
-    print(type(jej))
+with open("{}/server.properties".format(SERVER),"w") as fichier:
     fichier.write(re.sub(r"server-ip\s*=\s*[\S\s]*?\n","server-ip={}\n".format(BIND),contprop))
 
 print("Lancement du serveur...")
