@@ -1,49 +1,35 @@
-[08mai2020 17:12:42.853] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.9, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
-[08mai2020 17:12:42.858] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_251 by Oracle Corporation
-[08mai2020 17:12:44.152] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[08mai2020 17:12:45.419] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[08mai2020 17:13:00.990] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08mai2020 17:13:00.992] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08mai2020 17:13:00.994] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08mai2020 17:13:00.996] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08mai2020 17:13:00.998] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08mai2020 17:13:01.220] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
-[08mai2020 17:13:01.945] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Error executing 'stty.exe -a':       1 [main] stty 2486 C:\Users\matth\AppData\Local\Programs\Git\usr\bin\stty.exe: *** fatal error - couldn't initialize fd 0 for /dev/pty0
-  48581 [main] stty 2486 cygwin_exception::open_stackdumpfile: Dumping stack trace to stty.exe.stackdump
-	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:46) ~[jline-3.12.1.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.defaultKeyMaps(LineReaderImpl.java:5541) ~[jline-3.12.1.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.<init>(LineReaderImpl.java:277) ~[jline-3.12.1.jar:?]
-	at org.jline.reader.LineReaderBuilder.build(LineReaderBuilder.java:115) ~[jline-3.12.1.jar:?]
-	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:48) ~[?:?]
-	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:100) ~[?:?]
-Caused by: java.io.IOException: Error executing 'stty.exe -a':       1 [main] stty 2486 C:\Users\matth\AppData\Local\Programs\Git\usr\bin\stty.exe: *** fatal error - couldn't initialize fd 0 for /dev/pty0
-  48581 [main] stty 2486 cygwin_exception::open_stackdumpfile: Dumping stack trace to stty.exe.stackdump
-	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-3.12.1.jar:?]
-	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-3.12.1.jar:?]
-	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-3.12.1.jar:?]
-	at org.jline.terminal.impl.AbstractPosixTerminal.getAttributes(AbstractPosixTerminal.java:44) ~[jline-3.12.1.jar:?]
-	... 5 more
-[08mai2020 17:13:02.208] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.9, for MC 1.15.2 with MCP 20200122.131323
-[08mai2020 17:13:02.209] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.9 Initialized
-[08mai2020 17:13:04.266] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08mai2020 17:13:04.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08mai2020 17:13:04.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[08mai2020 17:13:04.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[08mai2020 17:13:04.493] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08mai2020 17:13:04.501] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[08mai2020 17:13:05.412] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.1.77
-[08mai2020 17:13:08.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08mai2020 17:13:08.730] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.9-universal.jar, inventorysorter-1.15.2-17.0.0.jar
-[08mai2020 17:13:09.338] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[08mai2020 17:13:10.037] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[08mai2020 17:13:10.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08mai2020 17:13:11.916] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08mai2020 17:13:11.917] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08mai2020 17:13:11.917] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08mai2020 17:13:12.113] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08mai2020 17:13:12.653] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2161 ms
-[08mai2020 17:13:12.725] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.433s)! For help, type "help"
-[08mai2020 17:13:16.182] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3345ms or 66 ticks behind
-[08mai2020 17:13:17.257] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08mai2020 17:13:17.260] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08mai2020 20:05:52.983] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.9, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
+[08mai2020 20:05:52.987] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_251 by Oracle Corporation
+[08mai2020 20:05:54.183] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[08mai2020 20:05:55.268] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[08mai2020 20:06:09.366] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08mai2020 20:06:09.371] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08mai2020 20:06:09.373] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08mai2020 20:06:09.375] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08mai2020 20:06:09.377] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08mai2020 20:06:09.555] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[08mai2020 20:06:11.172] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.9, for MC 1.15.2 with MCP 20200122.131323
+[08mai2020 20:06:11.592] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.9 Initialized
+[08mai2020 20:06:12.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08mai2020 20:06:12.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[08mai2020 20:06:12.575] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08mai2020 20:06:12.577] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[08mai2020 20:06:12.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08mai2020 20:06:12.844] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[08mai2020 20:06:13.394] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.1.77
+[08mai2020 20:06:14.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** FAILED TO BIND TO PORT!
+[08mai2020 20:06:14.735] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The exception was: java.net.BindException: Address already in use: bind
+[08mai2020 20:06:14.736] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: Perhaps a server is already running on that port?
+[08mai2020 20:06:14.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08mai2020 20:06:14.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08mai2020 20:06:14.768] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Exception stopping the server
+java.lang.IllegalArgumentException: Can not hotload overworld. This must be loaded at all times by main Server.
+	at org.apache.commons.lang3.Validate.isTrue(Validate.java:158) ~[server-1.15.2-extra.jar:?]
+	at net.minecraftforge.common.DimensionManager.initWorld(DimensionManager.java:229) ~[?:?]
+	at net.minecraftforge.common.DimensionManager.getWorld(DimensionManager.java:198) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71218_a(MinecraftServer.java:1002) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213211_a(MinecraftServer.java:534) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:566) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71260_j(DedicatedServer.java:549) ~[?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:674) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
