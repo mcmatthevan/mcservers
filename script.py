@@ -42,5 +42,5 @@ with open("{}/server.properties".format(SERVER),"w") as fichier:
 
 print("Lancement du serveur...")
 os.chdir(SERVER)
-subprocess.Popen("start.bat")
+subprocess.Popen("startscript.sh")
 sys.exit(0)
