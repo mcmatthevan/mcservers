@@ -15,7 +15,7 @@ def warn(x="unknown"):
 path = os.getcwd().split("\\")
 SERVER = path[len(path)-1]
 
-os.chdir("../")
+os.chdir("..\\")
 if os.system("git add {}".format(SERVER)):
     warn("add")
 
