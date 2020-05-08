@@ -27,8 +27,9 @@ with open("./{}/used.b".format(SERVER),"r") as fichier:
 with open("./{}/used.b".format(SERVER),"w") as fichier:
     print("Inscription de l'indication de lancement dans used.b")
     fichier.write("1")
-
-if os.system("git add {}".format(SERVER)) or os.system("git commit -am \"Setting used.b\"") or os.system("git push"):
+os.system("git add {}".format(SERVER))
+os.system("git commit -am \"Setting used.b\"")
+if os.system("git push"):
     print("Erreur pendant le push de used.b")
     with open("./{}/used.b".format(SERVER),"w") as fichier:
         fichier.write("0")
