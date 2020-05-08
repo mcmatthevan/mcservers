@@ -1,5 +1,7 @@
 import os
 import re
+import subprocess
+import sys
 
 SERVER = "serveur"
 
@@ -40,4 +42,5 @@ with open("{}/server.properties".format(SERVER),"w") as fichier:
 
 print("Lancement du serveur...")
 os.chdir(SERVER)
-os.system("start.bat")
+subprocess.Popen("start.bat")
+sys.exit(0)

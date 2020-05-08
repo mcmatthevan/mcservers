@@ -24,3 +24,8 @@ if os.system("git commit -am \"{} : Update {}\"".format(currentTime,SERVER)):
 
 if os.system("git push"):
     fin("push")
+
+
+os.chdir(SERVER)
+with open("used.b","w") as fichier:
+    fichier.write("0")
