@@ -36,7 +36,9 @@ print("Remplacement de l'IP")
 with open("{}/server.properties".format(SERVER),"r") as fichier:
     contprop = fichier.read()
 with open("{}/server.properties".format(SERVER),"r") as fichier:
-    print(re.sub(r"server-ip\s*=\s*[\S\s]*?\n","server-ip={}\n".format(BIND),contprop))
+    jej = re.sub(r"server-ip\s*=\s*[\S\s]*?\n","server-ip={}\n".format(BIND),contprop)
+    print(jej)
+    print(type(jej))
     fichier.write(re.sub(r"server-ip\s*=\s*[\S\s]*?\n","server-ip={}\n".format(BIND),contprop))
 
 print("Lancement du serveur...")
