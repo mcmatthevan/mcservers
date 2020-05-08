@@ -29,3 +29,5 @@ if os.system("git push"):
 os.chdir(SERVER)
 with open("used.b","w") as fichier:
     fichier.write("0")
+	
+print("Press Enter to exit")
