@@ -3,7 +3,7 @@ import re
 
 SERVER = "serveur"
 
-with open("../bind.txt","r"):
+with open("../bind.txt","r") as fichier :
     BIND = fichier.read()
 
 def fin(x):
@@ -27,7 +27,7 @@ with open("./{}/used.b".format(SERVER),"w") as fichier:
     print("Inscription de l'indication de lancement dans used.b")
     fichier.write("1")
 
-if os.system("git add {};git commit -am 'set used.b';git push".format(SERVER)):
+if os.system("git add {}".format(SERVER)) or os.system("git commit -am \"Setting used.b\"") or os.system("git push"):
     print("Erreur pendant le push de used.b")
     with open("./{}/used.b".format(SERVER),"w") as fichier:
         fichier.write("0")

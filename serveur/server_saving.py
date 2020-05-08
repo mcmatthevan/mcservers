@@ -19,7 +19,7 @@ os.chdir("../")
 if os.system("git add {}".format(SERVER)):
     warn("add")
 
-if os.system("git commit -am '{} : Update {}'".format(currentTime,SERVER)):
+if os.system("git commit -am \"{} : Update {}\"".format(currentTime,SERVER)):
     warn("commit")
 
 if os.system("git push"):
