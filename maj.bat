@@ -1,0 +1,1 @@
+..\git-bash.exe -c "winpty py scripts/majscript.py"

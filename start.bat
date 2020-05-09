@@ -1,1 +1,1 @@
-..\git-bash.exe -c "winpty py script.py"
+..\git-bash.exe -c "winpty py scripts/script.py"
