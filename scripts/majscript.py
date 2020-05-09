@@ -1,3 +1,5 @@
+import os
+
 print("Mise à jour des fichiers... Veuillez patienter...")
 
 if os.system("git pull"):
