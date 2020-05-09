@@ -30,7 +30,7 @@ os.chdir(SERVER)
 with open("used.b","w") as fichier:
     fichier.write("0")
 
-if os.system("git add {}/used.b".format(SERVER)):
+if os.system("git add used.b"):
     warn("add used.b")
 
 if os.system("git commit -am \"set used.b\""):
