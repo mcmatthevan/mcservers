@@ -29,5 +29,14 @@ if os.system("git push"):
 os.chdir(SERVER)
 with open("used.b","w") as fichier:
     fichier.write("0")
+
+if os.system("git add {}".format(SERVER)):
+    warn("add used.b")
+
+if os.system("git commit -am \"set used.b""):
+    warn("commit used.b")
+
+if os.system("git push"):
+    warn("push used.b")
 	
 print("Press Enter to exit")

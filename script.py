@@ -12,7 +12,7 @@ def fin(x):
     input("Appuyez sur Entrée pour sortir...\n")
     exit(x)
 
-if os.system("git pull"):
+if os.system("git pull origin master"):
     print("Une erreur est survenue pendant la récupération des fichiers du serveur.\n Vérifiez votre connexion Internet")
     fin(1)
 
