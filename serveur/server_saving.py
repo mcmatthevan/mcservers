@@ -33,7 +33,7 @@ with open("used.b","w") as fichier:
 if os.system("git add {}".format(SERVER)):
     warn("add used.b")
 
-if os.system("git commit -am \"set used.b""):
+if os.system("git commit -am \"set used.b\""):
     warn("commit used.b")
 
 if os.system("git push"):

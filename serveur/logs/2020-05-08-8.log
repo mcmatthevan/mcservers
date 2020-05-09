@@ -1,28 +1,28 @@
-[08mai2020 20:05:52.983] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.9, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
-[08mai2020 20:05:52.987] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_251 by Oracle Corporation
-[08mai2020 20:05:54.183] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[08mai2020 20:05:55.268] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[08mai2020 20:06:09.366] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08mai2020 20:06:09.371] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08mai2020 20:06:09.373] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08mai2020 20:06:09.375] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08mai2020 20:06:09.377] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08mai2020 20:06:09.555] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
-[08mai2020 20:06:11.172] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.9, for MC 1.15.2 with MCP 20200122.131323
-[08mai2020 20:06:11.592] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.9 Initialized
-[08mai2020 20:06:12.567] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08mai2020 20:06:12.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[08mai2020 20:06:12.575] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08mai2020 20:06:12.577] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[08mai2020 20:06:12.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08mai2020 20:06:12.844] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[08mai2020 20:06:13.394] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.1.77
-[08mai2020 20:06:14.734] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** FAILED TO BIND TO PORT!
-[08mai2020 20:06:14.735] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The exception was: java.net.BindException: Address already in use: bind
-[08mai2020 20:06:14.736] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: Perhaps a server is already running on that port?
-[08mai2020 20:06:14.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08mai2020 20:06:14.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08mai2020 20:06:14.768] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Exception stopping the server
+[08mai2020 20:13:02.703] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.9, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
+[08mai2020 20:13:02.707] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_251 by Oracle Corporation
+[08mai2020 20:13:03.864] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[08mai2020 20:13:04.909] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[08mai2020 20:13:17.403] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08mai2020 20:13:17.405] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08mai2020 20:13:17.407] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08mai2020 20:13:17.421] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08mai2020 20:13:17.423] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08mai2020 20:13:17.611] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[08mai2020 20:13:19.299] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.9, for MC 1.15.2 with MCP 20200122.131323
+[08mai2020 20:13:19.300] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.9 Initialized
+[08mai2020 20:13:20.556] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08mai2020 20:13:20.559] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08mai2020 20:13:20.562] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[08mai2020 20:13:20.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[08mai2020 20:13:20.850] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on localhost:25565
+[08mai2020 20:13:20.859] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[08mai2020 20:13:21.436] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.1.77
+[08mai2020 20:13:22.635] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** FAILED TO BIND TO PORT!
+[08mai2020 20:13:22.637] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The exception was: java.net.BindException: Address already in use: bind
+[08mai2020 20:13:22.637] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: Perhaps a server is already running on that port?
+[08mai2020 20:13:22.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08mai2020 20:13:22.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08mai2020 20:13:22.675] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Exception stopping the server
 java.lang.IllegalArgumentException: Can not hotload overworld. This must be loaded at all times by main Server.
 	at org.apache.commons.lang3.Validate.isTrue(Validate.java:158) ~[server-1.15.2-extra.jar:?]
 	at net.minecraftforge.common.DimensionManager.initWorld(DimensionManager.java:229) ~[?:?]
