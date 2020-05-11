@@ -1,66 +1,73 @@
-[11mai2020 12:23:27.203] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.9, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
-[11mai2020 12:23:27.208] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
-[11mai2020 12:23:28.126] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[11mai2020 12:23:29.288] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[11mai2020 12:23:41.781] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11mai2020 12:23:41.783] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11mai2020 12:23:41.786] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11mai2020 12:23:41.789] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11mai2020 12:23:41.793] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11mai2020 12:23:42.023] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
-[11mai2020 12:23:43.467] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.9, for MC 1.15.2 with MCP 20200122.131323
-[11mai2020 12:23:43.863] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.9 Initialized
-[11mai2020 12:23:44.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[11mai2020 12:23:44.733] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11mai2020 12:23:44.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[11mai2020 12:23:44.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[11mai2020 12:23:45.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 2620:9b::193d:f5f8:25565
-[11mai2020 12:23:45.026] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[11mai2020 12:23:45.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.1.78
-[11mai2020 12:23:46.943] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[11mai2020 12:23:47.657] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.9-universal.jar, inventorysorter-1.15.2-17.0.0.jar
-[11mai2020 12:23:48.389] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[11mai2020 12:23:48.836] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[11mai2020 12:23:50.361] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[11mai2020 12:23:51.652] [Netty Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[11mai2020 12:23:54.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11mai2020 12:23:55.378] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[11mai2020 12:23:55.379] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[11mai2020 12:23:55.380] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[11mai2020 12:23:56.039] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1724 ms
-[11mai2020 12:23:56.041] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.326s)! For help, type "help"
-[11mai2020 12:23:57.029] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11mai2020 12:23:57.031] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11mai2020 12:24:05.426] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player lumahell is 8b662c73-ec20-4d3b-b411-a031bc1039bf
-[11mai2020 12:24:07.512] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: lumahell[/2620:9b:0:0:0:0:192c:17b2:54254] logged in with entity id 265 at (238.70712758451796, 48.0, 267.40261940812735)
-[11mai2020 12:24:07.571] [Netty Server IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@67834983 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[11mai2020 12:24:07.572] [Netty Server IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@4fb4fb21 (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
-[11mai2020 12:24:07.572] [Netty Server IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@41b34873 (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
-[11mai2020 12:24:07.573] [Netty Server IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@63fbba12 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[11mai2020 12:24:07.581] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: lumahell joined the game
-[11mai2020 12:24:13.345] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[11mai2020 12:24:25.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <lumahell> ez
-[11mai2020 12:24:33.983] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[11mai2020 12:24:48.984] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: lumahell lost connection: Disconnected
-[11mai2020 12:24:48.985] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: lumahell left the game
-[11mai2020 12:24:51.399] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2472ms or 49 ticks behind
-[11mai2020 12:26:00.563] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player AigleAttarde is b02f8f8a-e7c0-4521-ad05-7e98a76ca18f
-[11mai2020 12:26:02.017] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: AigleAttarde[/2620:9b:0:0:0:0:193d:f5f8:56837] logged in with entity id 314 at (240.73555474872379, 48.0, 267.66448744844377)
-[11mai2020 12:26:02.038] [Netty Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@67834983 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[11mai2020 12:26:02.038] [Netty Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@63fbba12 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[11mai2020 12:26:02.037] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AigleAttarde joined the game
-[11mai2020 12:26:05.496] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[11mai2020 12:26:53.661] [Netty Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@67834983 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[11mai2020 12:26:53.661] [Netty Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@63fbba12 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[11mai2020 12:27:09.783] [Netty Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@67834983 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
-[11mai2020 12:27:09.784] [Netty Server IO #7/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@63fbba12 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
-[11mai2020 12:27:10.867] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11mai2020 12:27:33.491] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: AigleAttarde lost connection: Disconnected
-[11mai2020 12:27:33.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: AigleAttarde left the game
-[11mai2020 12:27:55.186] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[11mai2020 12:27:55.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[11mai2020 12:27:55.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[11mai2020 12:27:55.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[11mai2020 12:27:55.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
-[11mai2020 12:27:56.251] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11mai2020 12:27:56.284] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11mai2020 18:58:13.827] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.9, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
+[11mai2020 18:58:13.842] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_251 by Oracle Corporation
+[11mai2020 18:58:15.202] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[11mai2020 18:58:16.311] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[11mai2020 18:58:34.119] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11mai2020 18:58:34.119] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11mai2020 18:58:34.119] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11mai2020 18:58:34.119] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11mai2020 18:58:34.135] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11mai2020 18:58:34.447] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[11mai2020 18:58:36.475] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.9, for MC 1.15.2 with MCP 20200122.131323
+[11mai2020 18:58:36.898] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.9 Initialized
+[11mai2020 18:58:38.274] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11mai2020 18:58:38.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11mai2020 18:58:38.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[11mai2020 18:58:38.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11mai2020 18:58:38.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 2620:9b::1941:4566:25565
+[11mai2020 18:58:38.922] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[11mai2020 18:58:40.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.1.78
+[11mai2020 18:58:44.418] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11mai2020 18:58:44.848] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.9-universal.jar, inventorysorter-1.15.2-17.0.0.jar
+[11mai2020 18:58:45.629] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[11mai2020 18:58:46.672] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[11mai2020 18:58:47.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11mai2020 18:58:51.209] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:51.210] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:51.210] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:51.211] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:51.211] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:51.211] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:51.212] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:51.212] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:51.325] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:52.143] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[11mai2020 18:58:52.555] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[11mai2020 18:58:53.792] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 6482 ms
+[11mai2020 18:58:53.794] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.471s)! For help, type "help"
+[11mai2020 18:58:56.750] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11mai2020 18:58:56.752] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11mai2020 18:58:56.755] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2766ms or 55 ticks behind
+[11mai2020 18:59:34.120] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player lumahell is 8b662c73-ec20-4d3b-b411-a031bc1039bf
+[11mai2020 18:59:35.759] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: lumahell[/2620:9b:0:0:0:0:1941:4566:62731] logged in with entity id 281 at (236.84187526811834, 49.0, 256.69058083376325)
+[11mai2020 18:59:35.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: lumahell joined the game
+[11mai2020 18:59:35.825] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@627c78e8 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[11mai2020 18:59:35.826] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@716043f0 (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
+[11mai2020 18:59:35.826] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@b90c7ae (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
+[11mai2020 18:59:35.828] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@22ec9f43 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[11mai2020 18:59:38.518] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[11mai2020 18:59:50.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <lumahell> ez
+[11mai2020 19:00:13.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [lumahell: Set own game mode to Survival Mode]
+[11mai2020 19:00:20.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [lumahell: Set own game mode to Creative Mode]
+[11mai2020 19:00:25.688] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [lumahell: Set own game mode to Survival Mode]
+[11mai2020 19:02:49.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <lumahell> 266 246
+[11mai2020 19:02:54.533] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <lumahell> 44
+[11mai2020 19:30:38.563] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: lumahell lost connection: Disconnected
+[11mai2020 19:30:38.564] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: lumahell left the game
+[11mai2020 19:32:40.640] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player lumahell is 8b662c73-ec20-4d3b-b411-a031bc1039bf
+[11mai2020 19:32:41.970] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: lumahell[/2620:9b:0:0:0:0:1941:4566:62798] logged in with entity id 6375 at (236.69999998807907, 45.0, 267.40011039210225)
+[11mai2020 19:32:41.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: lumahell joined the game
+[11mai2020 19:32:41.989] [Netty Server IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@627c78e8 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[11mai2020 19:32:41.991] [Netty Server IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@716043f0 (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
+[11mai2020 19:32:41.991] [Netty Server IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument@b90c7ae (class cpw.mods.inventorysorter.InventorySorterCommand$ContainerClassArgument) - will not be sent to client!
+[11mai2020 19:32:41.991] [Netty Server IO #4/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@22ec9f43 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[11mai2020 19:32:42.646] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[11mai2020 19:43:15.772] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: lumahell lost connection: Disconnected
+[11mai2020 19:43:15.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: lumahell left the game
+[11mai2020 19:43:21.055] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[11mai2020 19:43:21.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11mai2020 19:43:21.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11mai2020 19:43:21.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11mai2020 19:43:21.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
+[11mai2020 19:43:21.467] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11mai2020 19:43:21.482] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
