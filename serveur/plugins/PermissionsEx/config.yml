@@ -1,0 +1,16 @@
+version: 0
+debug: false
+backends:
+    default-file:
+        file: permissions.json
+        auto-reload: true
+        alphabetize-entries: false
+        type: file
+    default:
+        prefix: pex
+        url: jdbc:h2:permissions
+        type: sql
+server-tags: []
+default-backend: default-file
+platform:
+    fallback-op: true
