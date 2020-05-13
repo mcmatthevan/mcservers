@@ -1,57 +1,19 @@
-[13mai2020 18:17:15.789] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.1.9, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
-[13mai2020 18:17:15.793] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
-[13mai2020 18:17:16.703] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[13mai2020 18:17:17.947] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[13mai2020 18:17:31.676] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mai2020 18:17:31.678] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13mai2020 18:17:31.682] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13mai2020 18:17:31.684] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13mai2020 18:17:31.685] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13mai2020 18:17:31.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
-[13mai2020 18:17:33.311] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.9, for MC 1.15.2 with MCP 20200122.131323
-[13mai2020 18:17:34.246] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.9 Initialized
-[13mai2020 18:17:34.942] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13mai2020 18:17:34.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13mai2020 18:17:34.944] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
-[13mai2020 18:17:34.979] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[13mai2020 18:17:35.139] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 2620:9b::193d:f5f8:25565
-[13mai2020 18:17:35.172] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[13mai2020 18:17:35.535] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.1.9 Target: 31.1.87
-[13mai2020 18:17:39.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13mai2020 18:17:39.686] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13mai2020 18:17:39.687] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13mai2020 18:17:39.687] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13mai2020 18:17:40.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13mai2020 18:17:42.072] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[13mai2020 18:17:42.264] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.1.9-universal.jar, inventorysorter-1.15.2-17.0.0.jar
-[13mai2020 18:17:43.030] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[13mai2020 18:17:43.941] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[13mai2020 18:17:44.383] [Netty Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[13mai2020 18:17:44.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13mai2020 18:17:45.661] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13mai2020 18:17:45.662] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13mai2020 18:17:45.662] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13mai2020 18:17:46.012] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13mai2020 18:17:46.550] [Netty Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[13mai2020 18:17:46.706] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2294 ms
-[13mai2020 18:17:46.708] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.432s)! For help, type "help"
-[13mai2020 18:17:46.712] [Netty Server IO #4/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[13mai2020 18:17:47.806] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13mai2020 18:17:47.808] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13mai2020 18:18:03.325] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@6a5f5c90[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:62709) lost connection: Disconnected
-[13mai2020 18:18:22.359] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@7fab1e5c[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:62712) lost connection: Disconnected
-[13mai2020 18:18:29.209] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@6f0066e5[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:62716) lost connection: Disconnected
-[13mai2020 18:19:28.612] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: Disconnecting com.mojang.authlib.GameProfile@fe2f0d4[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:62734): Took too long to log in
-[13mai2020 18:19:28.658] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@fe2f0d4[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:62734) lost connection: Took too long to log in
-[13mai2020 18:19:46.708] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@1811777[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:62737) lost connection: Disconnected
-[13mai2020 18:23:04.759] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: Disconnecting com.mojang.authlib.GameProfile@de70d40[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:49913): Took too long to log in
-[13mai2020 18:23:04.808] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@de70d40[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:49913) lost connection: Took too long to log in
-[13mai2020 18:28:15.009] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@5896380d[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:50148) lost connection: Disconnected
-[13mai2020 18:31:11.459] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@38cafca1[id=<null>,name=lumahell,properties={},legacy=false] (/2620:9b:0:0:0:0:1941:4566:50199) lost connection: Disconnected
-[13mai2020 18:31:16.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[13mai2020 18:31:16.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13mai2020 18:31:16.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13mai2020 18:31:16.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13mai2020 18:31:16.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'world'/minecraft:overworld
-[13mai2020 18:31:16.844] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13mai2020 18:31:16.866] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:08:21] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[19:08:21] [Server thread/INFO]: Loading properties
+[19:08:22] [Server thread/INFO]: This server is running Paper version git-Paper-251 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[19:08:22] [Server thread/INFO]: Debug logging is disabled
+[19:08:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:08:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:08:22] [Server thread/INFO]: Default game type: SURVIVAL
+[19:08:22] [Server thread/INFO]: Generating keypair
+[19:08:22] [Server thread/INFO]: Starting Minecraft server on 2620:9b::1941:4566:25565
+[19:08:22] [Server thread/INFO]: Using default channel type
+[19:08:25] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[19:08:25] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
+[19:08:25] [Server thread/WARN]: Perhaps a server is already running on that port?
+[19:08:25] [Server thread/INFO]: Stopping server
+[19:08:25] [Server thread/INFO]: Saving players
+[19:08:25] [Server thread/INFO]: Saving worlds
+[19:08:25] [Server thread/INFO]: Flushing Chunk IO
+[19:08:25] [Server thread/INFO]: Closing Thread Pool
+[19:08:28] [Server thread/INFO]: Closing Server
