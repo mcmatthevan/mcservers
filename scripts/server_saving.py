@@ -12,7 +12,7 @@ def fin(x="unknown"):
 def warn(x="unknown"):
     print("Un avertissement est survenu pendant l'étape : {}.\n Une vérification de l'intégrité des fichiers peut s'avérer nécessaire.".format(x))
 
-SERVER = "serveur"
+SERVER = "../serveur"
 
 if os.system("git add {}".format(SERVER)):
     warn("add")
