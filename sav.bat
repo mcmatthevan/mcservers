@@ -1,1 +1,2 @@
-..\git-bash.exe -c "winpty py scripts/server_saving.py"
+cd scripts
+..\..\git-bash.exe -c "winpty py server_saving.py"
