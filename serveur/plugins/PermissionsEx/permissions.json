@@ -9,7 +9,17 @@
                     "permissions-default": 1
                 }
             ]
+        },
+        "user": {
+            "8b662c73-ec20-4d3b-b411-a031bc1039bf": [
+                {
+                    "permissions": {
+                        "*": 1
+                    }
+                }
+            ]
         }
     },
-    "schema-version": 4
+    "schema-version": 4,
+    "context-inheritance": {}
 }
