@@ -1,0 +1,1 @@
+..\git-bash.exe -c "winpty py scripts/server_saving.py"
