@@ -15,11 +15,13 @@
                 {
                     "permissions": {
                         "*": 1
+                    },
+                    "options": {
+                        "name": "lumahell"
                     }
                 }
             ]
         }
     },
-    "schema-version": 4,
-    "context-inheritance": {}
+    "schema-version": 4
 }
