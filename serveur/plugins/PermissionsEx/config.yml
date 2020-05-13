@@ -10,7 +10,7 @@ backends:
         prefix: pex
         url: jdbc:h2:permissions
         type: sql
-server-tags: []
 default-backend: default-file
 platform:
     fallback-op: true
+server-tags: []
