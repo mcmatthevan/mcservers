@@ -13,15 +13,34 @@
         "user": {
             "8b662c73-ec20-4d3b-b411-a031bc1039bf": [
                 {
-                    "permissions": {
-                        "*": 1
-                    },
+                    "permissions": {},
                     "options": {
                         "name": "lumahell"
+                    },
+                    "permissions-default": 1,
+                    "parents": [
+                        "group:admin"
+                    ]
+                }
+            ],
+            "b02f8f8a-e7c0-4521-ad05-7e98a76ca18f": [
+                {
+                    "parents": [
+                        "group:admin"
+                    ]
+                }
+            ]
+        },
+        "group": {
+            "admin": [
+                {
+                    "permissions": {
+                        "*": 1
                     }
                 }
             ]
         }
     },
-    "schema-version": 4
+    "schema-version": 4,
+    "context-inheritance": {}
 }
