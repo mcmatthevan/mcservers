@@ -1,7 +1,16 @@
 lastAccountName: lumahell
 timestamps:
-  login: 1589466481511
+  login: 1589478571192
   kits:
     color: 1589397535974
     notch: 1589397619863
+  logout: 1589478514230
 ipAddress: 2620:9b:0:0:0:0:1941:4566
+logoutlocation:
+  world: world
+  x: 230.92584909432645
+  y: 64.0
+  z: 185.92757105286884
+  yaw: -213.7893
+  pitch: 12.05108
+afk: false
