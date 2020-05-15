@@ -1,12 +1,21 @@
 lastAccountName: AigleAttarde
 timestamps:
-  login: 1589562524858
-  logout: 1589562623010
+  login: 1589563535948
+  logout: 1589566499417
+  lastteleport: 1589566362622
 ipAddress: 2620:9b:0:0:0:0:193d:f5f8
 logoutlocation:
   world: world
-  x: 246.36304154438784
-  y: 48.0
-  z: 257.81086291683727
-  yaw: -269.05328
-  pitch: 6.59958
+  x: 237.24215017991062
+  y: 75.8512308554867
+  z: 195.05227176050786
+  yaw: -24.308105
+  pitch: 17.321907
+lastlocation:
+  world: world
+  x: 256.47614762455123
+  y: 64.37621188663357
+  z: 211.7679998517745
+  yaw: -354.94336
+  pitch: 8.588301
+afk: false

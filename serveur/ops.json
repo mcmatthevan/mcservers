@@ -4,5 +4,11 @@
     "name": "lumahell",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b02f8f8a-e7c0-4521-ad05-7e98a76ca18f",
+    "name": "AigleAttarde",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
