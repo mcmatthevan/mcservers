@@ -1,183 +1,438 @@
-[12:54:28] [Server thread/INFO]: Loading properties
-[12:54:29] [Server thread/INFO]: This server is running Paper version git-Paper-251 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
-[12:54:29] [Server thread/INFO]: Debug logging is disabled
-[12:54:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:54:29] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:54:29] [Server thread/INFO]: Default game type: SURVIVAL
-[12:54:29] [Server thread/INFO]: Generating keypair
-[12:54:29] [Server thread/INFO]: Starting Minecraft server on 2620:9b::1941:4566:25565
-[12:54:29] [Server thread/INFO]: Using default channel type
-[12:54:35] [Server thread/INFO]: [ClickSortLite] Loading ClickSortLite v3
-[12:54:35] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
-[12:54:35] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v2.0-SNAPSHOT
-[12:54:35] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.77
-[12:54:35] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.77
-[12:54:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:54:35] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
-[12:54:35] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.77 which is not a depend, softdepend or loadbefore of this plugin.
-[12:54:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[12:54:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[12:54:35] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
-[12:54:35] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v2.0-SNAPSHOT
-[12:54:37] [Server thread/INFO]: [PermissionsEx] Successfully registered Vault's Permission and Chat interfaces
-[12:54:37] [Server thread/INFO]: Preparing level "world"
-[12:54:37] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[12:54:38] [Server thread/INFO]: Loaded 6 recipes
-[12:54:42] [Server thread/INFO]: -------- World Settings For [world] --------
-[12:54:42] [Server thread/INFO]: View Distance: 8
-[12:54:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[12:54:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[12:54:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:54:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Potato Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Vine Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[12:54:42] [Server thread/INFO]: Experience Merge Radius: 0.0
-[12:54:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:54:42] [Server thread/INFO]: Max TNT Explosions: 100
-[12:54:42] [Server thread/INFO]: Item Merge Radius: 0.5
-[12:54:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:54:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[12:54:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:54:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:54:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:54:42] [Server thread/INFO]: Mob Spawn Range: 8
-[12:54:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[12:54:42] [Server thread/INFO]: View Distance: 8
-[12:54:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[12:54:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[12:54:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:54:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Potato Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Vine Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[12:54:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[12:54:42] [Server thread/INFO]: Experience Merge Radius: 0.0
-[12:54:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:54:42] [Server thread/INFO]: Max TNT Explosions: 100
-[12:54:42] [Server thread/INFO]: Item Merge Radius: 0.5
-[12:54:42] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:54:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[12:54:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:54:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:54:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:54:42] [Server thread/INFO]: Mob Spawn Range: 8
-[12:54:43] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[12:54:43] [Server thread/INFO]: View Distance: 8
-[12:54:43] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[12:54:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[12:54:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[12:54:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Cane Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Melon Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Potato Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Vine Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[12:54:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[12:54:43] [Server thread/INFO]: Experience Merge Radius: 0.0
-[12:54:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[12:54:43] [Server thread/INFO]: Max TNT Explosions: 100
-[12:54:43] [Server thread/INFO]: Item Merge Radius: 0.5
-[12:54:43] [Server thread/INFO]: Item Despawn Rate: 6000
-[12:54:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
-[12:54:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[12:54:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[12:54:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[12:54:43] [Server thread/INFO]: Mob Spawn Range: 8
-[12:54:43] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[12:54:43] [Paper RegionFile IO Thread/INFO]: [RegionFile] Using Java 8 DirectByteBuffer cleanup method
-[12:54:43] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[12:54:43] [Server thread/INFO]: Time elapsed: 406 ms
-[12:54:43] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[12:54:43] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[12:54:43] [Server thread/INFO]: Time elapsed: 78 ms
-[12:54:43] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[12:54:43] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[12:54:43] [Server thread/INFO]: Time elapsed: 70 ms
-[12:54:43] [Server thread/INFO]: [ClickSortLite] Enabling ClickSortLite v3
-[12:54:43] [Server thread/INFO]: [ClickSortLite] If you want to disable container sorting you have 2 ways:
-[12:54:43] [Server thread/INFO]: [ClickSortLite] - cancel InventoryClickEvent in your plugin
-[12:54:43] [Server thread/INFO]: [ClickSortLite] - set permission 'clicksortlite' to false
-[12:54:43] [Server thread/INFO]: [ClickSortLite] For these to work i had to set InventoryClickEvent priority to highest,
-[12:54:43] [Server thread/INFO]: [ClickSortLite] you should not do the same or results may be unpredictable.
-[12:54:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.77
-[12:54:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:54:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:54:44] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
-[12:54:44] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
-[12:54:44] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
-[12:54:45] [Server thread/INFO]: [Essentials] Loaded 21019 items from items.json.
-[12:54:45] [Server thread/INFO]: [Essentials] Using locale fr_FR
-[12:54:45] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:54:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:54:45] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
-[12:54:45] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
-[12:54:45] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.77
-[12:54:45] [Server thread/INFO]: Done (8.672s)! For help, type "help"
-[12:54:46] [Server thread/INFO]: Timings Reset
-[12:54:46] [Craft Scheduler Thread - 3/INFO]: [Vault] Checking for Updates ... 
-[12:54:51] [Craft Scheduler Thread - 3/INFO]: [Vault] No new version available
-[12:55:42] [User Authenticator #1/INFO]: UUID of player lumahell is 8b662c73-ec20-4d3b-b411-a031bc1039bf
-[12:55:43] [Server thread/INFO]: lumahell joined the game
-[12:55:43] [Server thread/INFO]: lumahell[/2620:9b:0:0:0:0:1941:4566:50332] logged in with entity id 286 at ([world]239.79263412074636, 48.0, 269.3751404343661)
-[12:56:06] [Async Chat Thread - #0/INFO]: lumahell : ez
-[12:57:59] [Server thread/INFO]: lumahell issued server command: /stop
-[12:57:59] [Server thread/INFO]: [lumahell: Stopping the server]
-[12:57:59] [Server thread/INFO]: Stopping server
-[12:57:59] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.77
-[12:57:59] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.77
-[12:57:59] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
-[12:57:59] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v2.0-SNAPSHOT
-[12:57:59] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
-[12:57:59] [Server thread/INFO]: [ClickSortLite] Disabling ClickSortLite v3
-[12:57:59] [Server thread/INFO]: Saving players
-[12:57:59] [Server thread/INFO]: lumahell lost connection: Server closed
-[12:57:59] [Server thread/INFO]: lumahell left the game
-[12:57:59] [Server thread/INFO]: Saving worlds
-[12:57:59] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[12:58:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:58:00] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[12:58:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:58:01] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[12:58:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:58:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:58:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:58:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:58:01] [Server thread/INFO]: Flushing Chunk IO
-[12:58:01] [Server thread/INFO]: Closing Thread Pool
-[12:58:01] [Server thread/INFO]: Closing Server
+[18:55:28] [Server thread/INFO]: Loading properties
+[18:55:28] [Server thread/INFO]: This server is running Paper version git-Paper-251 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[18:55:28] [Server thread/INFO]: Debug logging is disabled
+[18:55:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:55:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:55:29] [Server thread/INFO]: Default game type: SURVIVAL
+[18:55:29] [Server thread/INFO]: Generating keypair
+[18:55:30] [Server thread/INFO]: Starting Minecraft server on 2620:9b::1941:4566:25565
+[18:55:30] [Server thread/INFO]: Using default channel type
+[18:55:38] [Server thread/INFO]: [ClickSortLite] Loading ClickSortLite v3
+[18:55:38] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[18:55:38] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v2.0-SNAPSHOT
+[18:55:38] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.77
+[18:55:38] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.77
+[18:55:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:55:38] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[18:55:39] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.17.2.77 which is not a depend, softdepend or loadbefore of this plugin.
+[18:55:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:55:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:55:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[18:55:39] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v2.0-SNAPSHOT
+[18:55:41] [Server thread/INFO]: [PermissionsEx] Successfully registered Vault's Permission and Chat interfaces
+[18:55:41] [Server thread/INFO]: Preparing level "world"
+[18:55:42] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[18:55:42] [Server thread/INFO]: Loaded 6 recipes
+[18:55:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:55:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:55:45] [Server thread/INFO]: View Distance: 8
+[18:55:45] [Server thread/INFO]: Mob Spawn Range: 8
+[18:55:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:55:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:55:45] [Server thread/INFO]: Item Merge Radius: 0.5
+[18:55:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:55:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:55:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[18:55:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:55:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:55:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:55:45] [Server thread/INFO]: Experience Merge Radius: 0.0
+[18:55:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:55:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:55:45] [Server thread/INFO]: Max TNT Explosions: 100
+[18:55:46] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:55:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:55:46] [Server thread/INFO]: View Distance: 8
+[18:55:46] [Server thread/INFO]: Mob Spawn Range: 8
+[18:55:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:55:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:55:46] [Server thread/INFO]: Item Merge Radius: 0.5
+[18:55:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:55:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:55:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[18:55:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:55:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:55:46] [Server thread/INFO]: Experience Merge Radius: 0.0
+[18:55:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:55:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:55:46] [Server thread/INFO]: Max TNT Explosions: 100
+[18:55:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:55:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:55:46] [Server thread/INFO]: View Distance: 8
+[18:55:46] [Server thread/INFO]: Mob Spawn Range: 8
+[18:55:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:55:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:55:46] [Server thread/INFO]: Item Merge Radius: 0.5
+[18:55:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:55:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:55:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911
+[18:55:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:55:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:55:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:55:46] [Server thread/INFO]: Experience Merge Radius: 0.0
+[18:55:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:55:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:55:46] [Server thread/INFO]: Max TNT Explosions: 100
+[18:55:46] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[18:55:46] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[18:55:46] [Server thread/INFO]: Time elapsed: 236 ms
+[18:55:46] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[18:55:46] [Paper RegionFile IO Thread/INFO]: [RegionFile] Using Java 8 DirectByteBuffer cleanup method
+[18:55:46] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[18:55:46] [Server thread/INFO]: Time elapsed: 91 ms
+[18:55:46] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[18:55:46] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[18:55:46] [Server thread/INFO]: Time elapsed: 45 ms
+[18:55:46] [Server thread/INFO]: [ClickSortLite] Enabling ClickSortLite v3
+[18:55:46] [Server thread/INFO]: [ClickSortLite] If you want to disable container sorting you have 2 ways:
+[18:55:46] [Server thread/INFO]: [ClickSortLite] - cancel InventoryClickEvent in your plugin
+[18:55:46] [Server thread/INFO]: [ClickSortLite] - set permission 'clicksortlite' to false
+[18:55:46] [Server thread/INFO]: [ClickSortLite] For these to work i had to set InventoryClickEvent priority to highest,
+[18:55:46] [Server thread/INFO]: [ClickSortLite] you should not do the same or results may be unpredictable.
+[18:55:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.77
+[18:55:47] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:55:47] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:55:48] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[18:55:48] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[18:55:48] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[18:55:49] [Server thread/INFO]: [Essentials] Loaded 21019 items from items.json.
+[18:55:49] [Server thread/INFO]: [Essentials] Using locale fr_FR
+[18:55:49] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:55:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:55:50] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[18:55:50] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[18:55:50] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.77
+[18:55:51] [Server thread/INFO]: Done (9.855s)! For help, type "help"
+[18:55:51] [Server thread/INFO]: Timings Reset
+[18:55:52] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
+[18:55:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5884ms or 117 ticks behind
+[18:56:04] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
+[18:58:54] [User Authenticator #1/INFO]: UUID of player lumahell is 8b662c73-ec20-4d3b-b411-a031bc1039bf
+[18:58:54] [Server thread/INFO]: lumahell joined the game
+[18:58:55] [Server thread/INFO]: lumahell[/2620:9b:0:0:0:0:1941:4566:51654] logged in with entity id 323 at ([world]255.651950666228, 47.9375, 215.91778500810688)
+[18:58:55] [Server thread/WARN]: [Essentials] Permissions lag notice with (ModernVaultHandler). Response took 26,505200ms. Summary: Getting prefix for lumahell
+[18:59:58] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:00:10] [Server thread/INFO]: lumahell issued server command: /clone
+[19:00:16] [Server thread/INFO]: lumahell issued server command: /essentials:amsg
+[19:00:21] [Server thread/INFO]: lumahell issued server command: /help antioch
+[19:00:52] [Server thread/INFO]: lumahell issued server command: /antioch
+[19:01:07] [Server thread/INFO]: lumahell issued server command: /antioch
+[19:01:21] [Server thread/INFO]: lumahell issued server command: /essentials:amsg
+[19:01:29] [Server thread/INFO]: lumahell issued server command: /action
+[19:03:04] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:04] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:04] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:14] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:14] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:14] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:16] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:16] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:16] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:19] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:21] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:21] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:21] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:26] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:26] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:26] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:33] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:33] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:33] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:35] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:35] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:35] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:35] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:35] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:35] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:41] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:41] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:41] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:45] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:47] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:47] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:47] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:48] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:48] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:48] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:50] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:50] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:50] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:50] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:50] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:50] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:03:59] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:01] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:05] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:06] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:16] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:16] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:16] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:25] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:25] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:25] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:26] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:26] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:26] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:27] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:29] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:32] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:54] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:04:56] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:04:59] [Server thread/WARN]: lumahell moved wrongly!
+[19:05:02] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:05:02] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:05:02] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:05:02] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:05:02] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:05:02] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:05:34] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[19:05:34] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[19:05:34] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[19:06:08] [Server thread/INFO]: lumahell lost connection: Disconnected
+[19:06:08] [Server thread/INFO]: lumahell left the game
+[19:06:14] [Server thread/INFO]: Stopping the server
+[19:06:14] [Server thread/INFO]: Stopping server
+[19:06:14] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.2.77
+[19:06:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.2.77
+[19:06:14] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[19:06:14] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v2.0-SNAPSHOT
+[19:06:14] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[19:06:14] [Server thread/INFO]: [ClickSortLite] Disabling ClickSortLite v3
+[19:06:14] [Server thread/INFO]: Saving players
+[19:06:14] [Server thread/INFO]: Saving worlds
+[19:06:14] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[19:06:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:06:15] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[19:06:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:06:15] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[19:06:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:06:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:06:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:06:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:06:15] [Server thread/INFO]: Flushing Chunk IO
+[19:06:15] [Server thread/INFO]: Closing Thread Pool
+[19:06:15] [Server thread/INFO]: Closing Server
