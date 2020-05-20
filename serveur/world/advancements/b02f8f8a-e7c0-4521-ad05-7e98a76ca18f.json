@@ -413,6 +413,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2020-05-20 18:03:54 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/composter": {
     "criteria": {
       "has_wood_slab": "2020-02-15 19:10:02 +0100"
@@ -676,7 +682,8 @@
       "minecraft:silverfish": "2020-02-06 19:13:17 +0100",
       "minecraft:enderman": "2020-02-06 19:27:17 +0100",
       "minecraft:zombie": "2020-02-06 19:25:31 +0100",
-      "minecraft:drowned": "2020-02-17 20:56:37 +0100"
+      "minecraft:drowned": "2020-02-17 20:56:37 +0100",
+      "minecraft:zombie_villager": "2020-05-20 18:29:05 +0200"
     },
     "done": false
   },
@@ -965,6 +972,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-02-15 17:52:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2020-05-20 18:53:51 +0200"
     },
     "done": true
   },
@@ -1375,6 +1388,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2020-05-20 18:25:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2020-02-05 15:52:54 +0100"
@@ -1508,6 +1527,12 @@
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
       "has_bamboo": "2020-02-17 18:25:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2020-05-20 18:03:52 +0200"
     },
     "done": true
   },
@@ -1805,6 +1830,12 @@
     },
     "done": true
   },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2020-05-20 18:53:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2020-02-05 16:01:05 +0100"
@@ -1838,6 +1869,12 @@
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2020-02-06 18:59:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2020-05-20 17:48:01 +0200"
     },
     "done": true
   },
@@ -2145,6 +2182,12 @@
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2020-02-05 16:01:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2020-05-20 17:49:04 +0200"
     },
     "done": true
   },
