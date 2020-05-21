@@ -1,13 +1,10 @@
 import os
 import sys
 
-noconfirm = False
-
-try:
-    if sys.argv[1] == "noconfirm":
-        noconfirm = True
-except IndexError:
-    pass
+if "noconfirm" in sys.argv:
+    noconfirm = True
+else:
+    noconfirm = False
 
 print("Mise à jour des fichiers... Veuillez patienter...")
 
