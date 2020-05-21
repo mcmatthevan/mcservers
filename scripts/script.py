@@ -11,7 +11,7 @@ with open("../bind.txt","r") as fichier :
 def fin(x):
     input("Appuyez sur Entrée pour sortir...\n")
     exit(x)
-if os.system("winpty py ./scripts/majscript.py"):
+if os.system("winpty py ./scripts/majscript.py noconfirm"):
     print("Une erreur est survenue pendant la récupération des fichiers du serveur.\n Vérifiez votre connexion Internet")
     fin(1)
 
